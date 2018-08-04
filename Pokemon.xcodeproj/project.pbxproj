@@ -14,6 +14,8 @@
 		EF3113C82115DC9F005E1AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3113C62115DC9F005E1AD2 /* LaunchScreen.storyboard */; };
 		EF3113D32115DC9F005E1AD2 /* PokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3113D22115DC9F005E1AD2 /* PokemonTests.swift */; };
 		EF3113DE2115DC9F005E1AD2 /* PokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3113DD2115DC9F005E1AD2 /* PokemonUITests.swift */; };
+		EF3113EC2115DD99005E1AD2 /* ViewMonsterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3113EB2115DD99005E1AD2 /* ViewMonsterController.swift */; };
+		EF3113EE2115DDDA005E1AD2 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3113ED2115DDDA005E1AD2 /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EF3113D92115DC9F005E1AD2 /* PokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3113DD2115DC9F005E1AD2 /* PokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonUITests.swift; sourceTree = "<group>"; };
 		EF3113DF2115DC9F005E1AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3113EB2115DD99005E1AD2 /* ViewMonsterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMonsterController.swift; sourceTree = "<group>"; };
+		EF3113ED2115DDDA005E1AD2 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				EF3113C42115DC9F005E1AD2 /* Assets.xcassets */,
 				EF3113C62115DC9F005E1AD2 /* LaunchScreen.storyboard */,
 				EF3113C92115DC9F005E1AD2 /* Info.plist */,
+				EF3113EB2115DD99005E1AD2 /* ViewMonsterController.swift */,
+				EF3113ED2115DDDA005E1AD2 /* Monster.swift */,
 			);
 			path = Pokemon;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3113EE2115DDDA005E1AD2 /* Monster.swift in Sources */,
 				EF3113C02115DC9E005E1AD2 /* ViewController.swift in Sources */,
+				EF3113EC2115DD99005E1AD2 /* ViewMonsterController.swift in Sources */,
 				EF3113BE2115DC9E005E1AD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
