@@ -99,13 +99,19 @@
                                     <segment title="Electric"/>
                                 </segments>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E17-Jl-7Qa">
-                                <rect key="frame" x="118" y="318" width="119" height="30"/>
-                                <state key="normal" title="Create a Monster"/>
-                                <connections>
-                                    <segue destination="5b2-JL-kiY" kind="show" identifier="createMonsterSegue" id="4Gw-TH-XS6"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jKh-Lp-kIZ">
+                                <rect key="frame" x="135" y="318" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E17-Jl-7Qa">
+                                        <rect key="frame" x="0.0" y="0.0" width="119" height="30"/>
+                                        <state key="normal" title="Create a Monster"/>
+                                        <connections>
+                                            <segue destination="5b2-JL-kiY" kind="show" identifier="createMonsterSegue" id="4Gw-TH-XS6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -115,7 +121,6 @@
                             <constraint firstItem="jsR-Zg-Tu7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="8ue-9G-yNX"/>
                             <constraint firstItem="W5Z-dP-Jch" firstAttribute="top" secondItem="3sJ-2l-mzL" secondAttribute="bottom" constant="8" symbolic="YES" id="9gf-Jn-Tn3"/>
                             <constraint firstItem="jsR-Zg-Tu7" firstAttribute="trailing" secondItem="E6r-lr-MhH" secondAttribute="trailing" id="DXi-9f-Raw"/>
-                            <constraint firstItem="E17-Jl-7Qa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dts-bA-bdI"/>
                             <constraint firstItem="YW6-Tv-nDE" firstAttribute="leading" secondItem="3sJ-2l-mzL" secondAttribute="leading" id="FsM-xy-e8o"/>
                             <constraint firstItem="3sJ-2l-mzL" firstAttribute="trailing" secondItem="W5Z-dP-Jch" secondAttribute="trailing" id="HSZ-ZJ-I1M"/>
                             <constraint firstItem="9vR-QS-FdR" firstAttribute="top" secondItem="E6r-lr-MhH" secondAttribute="bottom" constant="8" symbolic="YES" id="Ing-y2-0hb"/>
@@ -123,7 +128,6 @@
                             <constraint firstItem="YW6-Tv-nDE" firstAttribute="top" secondItem="9vR-QS-FdR" secondAttribute="bottom" constant="8" symbolic="YES" id="NrF-Nv-eUr"/>
                             <constraint firstItem="tLN-u2-L7D" firstAttribute="trailing" secondItem="3sJ-2l-mzL" secondAttribute="trailing" id="X4O-UT-dFE"/>
                             <constraint firstItem="jsR-Zg-Tu7" firstAttribute="leading" secondItem="E6r-lr-MhH" secondAttribute="leading" id="ZQ7-x5-ffD"/>
-                            <constraint firstItem="E17-Jl-7Qa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="dLw-rH-O0E"/>
                             <constraint firstItem="n1G-U7-q9E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="dWf-k9-3uk"/>
                             <constraint firstItem="W5Z-dP-Jch" firstAttribute="top" secondItem="YW6-Tv-nDE" secondAttribute="bottom" constant="21" id="eLA-6g-Ztm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YW6-Tv-nDE" secondAttribute="trailing" constant="58" id="fE9-H6-3Ea"/>

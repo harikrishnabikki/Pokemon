@@ -35,19 +35,19 @@ class ViewMonsterController: UIViewController {
         self.levelLabel.text = "Level: \(currentMonster?.m_nLevel ?? 0)"
         
         if(self.currentMonster!.m_sType == "Fire") {
-            self.typeLabel.textColor = UIColor(red: 24.0/255, green: 129.0/255, blue:58.0/255, alpha: 1.0)
+            self.typeLabel.textColor = UIColor(red: 240.0/255, green: 20.0/255, blue:65.0/255, alpha: 1.0)
         }
         else if(self.currentMonster!.m_sType == "Water") {
-            self.typeLabel.textColor = UIColor(red: 24.0/255, green: 129.0/255, blue:58.0/255, alpha: 1.0)
+            self.typeLabel.textColor = UIColor(red: 105.0/255, green: 150.0/255, blue:237.0/255, alpha: 1.0)
         }
         else if(self.currentMonster!.m_sType == "Grass") {
-            self.typeLabel.textColor = UIColor(red: 24.0/255, green: 129.0/255, blue:58.0/255, alpha: 1.0)
+            self.typeLabel.textColor = UIColor(red: 119.0/255, green: 195.0/255, blue:86.0/255, alpha: 1.0)
         }
         else if(self.currentMonster!.m_sType == "Rock") {
-            self.typeLabel.textColor = UIColor(red: 24.0/255, green: 129.0/255, blue:58.0/255, alpha: 1.0)
+            self.typeLabel.textColor = UIColor(red: 180.0/255, green: 170.0/255, blue:70.0/255, alpha: 1.0)
         }
         else if(self.currentMonster!.m_sType == "Electric") {
-            self.typeLabel.textColor = UIColor(red: 24.0/255, green: 129.0/255, blue:58.0/255, alpha: 1.0)
+            self.typeLabel.textColor = UIColor(red: 248.0/255, green: 205.0/255, blue:65.0/255, alpha: 1.0)
         }
     }
     
